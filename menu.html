@@ -116,39 +116,62 @@
         </div>
       </div>
 
+     
       <!-- Meal tabs -->
       <div class="border-b border-gray-200 dark:border-gray-800">
         <div class="flex gap-8 overflow-x-auto pb-px scrollbar-hide">
-          <button
+
+          <!-- Breakfast tab -> goes to breakfast.html -->
+          <a href="breakfast.html"
             class="group flex items-center gap-2 pb-3 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-all min-w-fit">
             <span
-              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">bakery_dining</span>
+              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">
+              bakery_dining
+            </span>
             <span
-              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">Breakfast</span>
-          </button>
+              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">
+              Breakfast
+            </span>
+          </a>
+
+          <!-- Lunch tab (active on this page) -->
           <button class="group flex items-center gap-2 pb-3 border-b-[3px] border-primary transition-all min-w-fit">
             <span class="material-symbols-outlined text-primary fill-1">lunch_dining</span>
             <span class="text-sm font-bold text-text-dark dark:text-white">Lunch</span>
             <span
-              class="bg-primary/20 text-green-700 dark:text-green-300 text-[10px] font-bold px-1.5 py-0.5 rounded ml-1">ACTIVE</span>
+              class="bg-primary/20 text-green-700 dark:text-green-300 text-[10px] font-bold px-1.5 py-0.5 rounded ml-1">
+              ACTIVE
+            </span>
           </button>
+
+          <!-- Snacks tab -->
           <button
             class="group flex items-center gap-2 pb-3 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-all min-w-fit">
             <span
-              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">cookie</span>
+              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">
+              cookie
+            </span>
             <span
-              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">Snacks</span>
+              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">
+              Snacks
+            </span>
           </button>
+
+          <!-- Dinner tab -->
           <button
             class="group flex items-center gap-2 pb-3 border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600 transition-all min-w-fit">
             <span
-              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">dinner_dining</span>
+              class="material-symbols-outlined text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300">
+              dinner_dining
+            </span>
             <span
-              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">Dinner</span>
+              class="text-sm font-medium text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-200">
+              Dinner
+            </span>
           </button>
+
         </div>
       </div>
-
       <!-- Chef's special -->
       <div
         class="relative overflow-hidden rounded-2xl bg-[#102210] p-6 md:p-8 flex flex-col md:flex-row items-center gap-6 shadow-lg group">
